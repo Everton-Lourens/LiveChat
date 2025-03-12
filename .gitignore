@@ -1,0 +1,90 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Logs
+logs
+*.log
+*.log.*
+log/
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled source / build output
+dist/
+build/
+tmp/
+temp/
+.cache/
+.next/
+out/
+.serve/
+
+# VSCode
+.vscode/
+.history/
+.idea/
+
+# Coverage
+coverage/
+*.lcov
+
+# Test
+jest-html-reporters-*.html
+test-results/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Parcel-bundler
+.cache/
+
+# Others
+*.tgz
+*.gz
+
+# Dependency directories
+bower_components/
+
+# Svelte
+.svelte-kit/
+
+# Storybook
+storybook-static/
+
+# PM2 process manager logs
+pids/
+*.pid
+*.pid.lock
+
+# Firebase
+.firebase/
+
+# Misc
+*.swp
+*.swo
+*.map

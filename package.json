@@ -1,0 +1,24 @@
+{
+  "name": "mychat",
+  "version": "1.0.0",
+  "description": "Criando versão de 'chat público' para portfólio.",
+  "main": "index.js",
+  "scripts": {
+    "dev2": "concurrently \"cd backend && npm run dev\" \"cd frontend && expo start\"",
+    "dev3": "concurrently \"node backend/src/server/server.js\" \"cd frontend && expo start --web\"",
+    "dev": "concurrently \"cd frontend && npm run web\" \"node backend/src/server/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Everton-Lourens/LiveChat.git"
+  },
+  "author": "Everton Lourens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Everton-Lourens/LiveChat/issues"
+  },
+  "homepage": "https://github.com/Everton-Lourens/LiveChat#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
